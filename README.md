@@ -1,11 +1,17 @@
---  To start the kamalio server use command
+--  To start the kamalio server use command :
+
      /etc/init.d/kamailio start
-     To stop
+
+     To stop :
+
      /etc/init.d/kamailio stop
      
--- To start both the freeswitch, use command in respective servers 
+-- To start both the freeswitch, use command in respective servers :
+
  /usr/local/freeswitch/bin/freeswitch -nc
- To Stop 
+
+ To Stop :
+ 
  /usr/local/freeswitch/bin/freeswitch -stop
  
  To see the changes in respective files please search for PLIVO_SETTING.
